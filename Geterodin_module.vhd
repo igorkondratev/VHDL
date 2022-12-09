@@ -8,12 +8,12 @@ entity Geterodin_module is
         Clk   : in std_logic;
         nRst: in std_logic;
         ReceiveDataMode: in std_logic;
-		  DataStrobe: in std_logic;
+        DataStrobe: in std_logic;
 
         ISig_In: in std_logic_vector(9 downto 0);
-		  QSig_In: in std_logic_vector(9 downto 0);
+        QSig_In: in std_logic_vector(9 downto 0);
 		  
-		  FS_IncrDecr: in std_logic_vector(1 downto 0);
+        FS_IncrDecr: in std_logic_vector(1 downto 0);
 
         IData_Out: out std_logic_vector(9 downto 0);
         QData_Out: out std_logic_vector(9 downto 0);
